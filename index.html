@@ -1,42 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Birthday, Barsha!</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday Barsha!</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="live-background"></div>
-    <div class="particles" id="particles"></div>
-    <div class="hearts" id="hearts"></div>
+  <div id="background"></div>
+  <audio id="birthdayMusic" autoplay loop>
+    <source src="music.mp3" type="audio/mpeg" />
+  </audio>
 
-    <div class="container">
-        <header>
-            <h1>Happy Birthday Barsha! 🎉</h1>
-        </header>
-        <section class="photo-gallery">
-            <div class="photo-item">
-                <img src="photo1.jpg" alt="Barsha's Photo 1">
-            </div>
-            <div class="photo-item">
-                <img src="photo2.jpg" alt="Barsha's Photo 2">
-            </div>
-            <div class="photo-item">
-                <img src="photo3.jpg" alt="Barsha's Photo 3">
-            </div>
-            <div class="photo-item">
-                <img src="photo4.jpg" alt="Barsha's Photo 4">
-            </div>
-            </section>
-        <section class="birthday-message">
-            <p>Wishing you the most amazing birthday filled with love, joy, and endless memories! 🥳</p>
-        </section>
-        <audio id="birthdaySong" controls autoplay loop>
-            <source src="happy-birthday-song.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
-    </div>
-    <script src="script.js"></script>
+  <div class="intro">
+    <img src="your-photo.jpg" alt="You" class="intro-photo"/>
+    <h1 class="headline">Happy Birthday Barsha!</h1>
+  </div>
+
+  <div class="photo-gallery">
+    <img src="photo1.jpg" class="gallery-photo" />
+    <img src="photo2.jpg" class="gallery-photo" />
+    <img src="photo3.jpg" class="gallery-photo" />
+  </div>
+
+  <div class="message">
+    <p>Wishing you all the love, laughter, and happiness in the world. You’re truly special and today is all about you!</p>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
